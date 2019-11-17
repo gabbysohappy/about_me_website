@@ -1,0 +1,11 @@
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+.navbar a:link {
+    color: white;
+}
+.navbar a:visited {
+    color: lightblue;
+}
