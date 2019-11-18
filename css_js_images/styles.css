@@ -1,7 +1,8 @@
 body {
     margin: 0;
-    font-family: "Roboto","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
+
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -26,7 +27,7 @@ body {
 }
 
 .navbar li a:hover {
-    background-color: rgb(39, 39, 39);
+    background-color: #333;
 }
 
 .navbar a:link {
@@ -37,16 +38,44 @@ body {
     color: lightblue;
 }
 
-#aboutMe, #partnerAndPets, #getInTouch {
-    text-align: left;
+ul, ol {
+    list-style-position: inside;
+}
+
+ol {
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#aboutMe, #partnerAndPets, #getInTouch{
     font-size: 20px;
-    height: 100%;
-    padding: 20px;
+    padding: 30px;
+    border: black 10px;
     margin-top: 0px;
-    margin-left: 50px;
-    margin-right: 50;
-    margin-bottom: 50;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
     background-color: white;
+}
+
+figure {
+   font-size: smaller; 
+}
+
+#partnerAndPets, #getInTouch {
+    height: 100%;
+}
+
+#aboutMe, #getInTouch {
+    text-align: center;
+}
+#partnerAndPets {
+    text-align: left;
+}
+#partnerAndPets h1 {
+    text-align: center;
 }
 
 #getInTouch ul {
