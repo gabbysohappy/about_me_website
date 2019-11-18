@@ -38,15 +38,21 @@ body {
     color: lightblue;
 }
 
-ul, ol {
-    list-style-position: inside;
+li a:hover {
+    color: lightblue;
 }
 
-ol {
-    display: block;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+ul {
+    list-style: none;
+}
+
+#favoriteList ul li::before {
+    content: "\2022";
+    color: coral;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
 }
 
 #aboutMe, #partnerAndPets, #getInTouch{
@@ -78,6 +84,3 @@ figure {
     text-align: center;
 }
 
-#getInTouch ul {
-    list-style-type: none;
-}
