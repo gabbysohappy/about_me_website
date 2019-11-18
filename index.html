@@ -1,5 +1,4 @@
-
-    <!-- Multiple sections with their own headings.
+<!-- Multiple sections with their own headings.
     Consist of multiple pages.
     Contain CSS linked from a separate file.
     Images in the foreground and background.
@@ -7,33 +6,39 @@
     BONUS: Use JavaScript on the site. -->
 
 <html>
-  <head>
-    <link rel="stylesheet" href="css_js_images/styles.css" />
-    <title>About Me</title>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar">
-        <a href="./index.html">About Me</a>
-        <a href="./family.html">Family Life</a>
-        <a href="./contact.html">Contact Information</a>
-      </nav>
-    </header>
-    <section>
-      <h1>Gabriella Algecera</h1>
-      <!-- Put some important information here -->
-    </section>
-    <section>
-      <!-- More information about you here -->
-    </section>
-    <footer>
-      <a href="https://www.linkedin.com/in/gabriella-algecera-46a20913b/">LinkedIn</a>
-      <a href="https://www.instagram.com/gabbysohappy/">Instagram</a>
-      <nav class="navbar"> 
-        <a href="./index.html">About Me</a>
-        <a href="./family.html">Family Life</a>
-        <a href="./contact.html">Contact Information</a>
-      </nav>
-    </footer>
-  </body>
+<style id="background">
+  body {
+    background-image: url("css_js_images/background.png");
+    background-size: 100% 100%;
+  }
+</style>
+
+<head>
+  <link rel="stylesheet" href="css_js_images/styles.css" />
+  <title>About Me</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="./index.html">About Me</a></li>
+        <li><a href="./family.html">Family Life</a></li>
+        <li><a href="./contact.html">Contact Information</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="aboutMe">
+    <h1>About Gabby</h1>
+    <p>blah blah blah intro</p>
+    <h3>Favorite Things</h3>
+    <ul>
+      <li>Outdoorsy adventures</li>
+      <li>Learning about zoology</li>
+      <li>Arts n' crafts</li>
+      <li>Reading fantasy or sci-fi novels</li>
+    </ul>
+  </section>
+</body>
+
 </html>
